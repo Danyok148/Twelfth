@@ -14,6 +14,7 @@ void addBlockToEnd(int*& arr, int& size, int* block, int blockSize) {
     size += blockSize;
 }
 
+
 void insertBlockAtIndex(int*& arr, int& size, int* block, int blockSize, int index) {
     if (index < 0) index = 0;
     if (index > size) index = size;
